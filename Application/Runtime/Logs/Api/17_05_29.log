@@ -1,0 +1,1117 @@
+[ 2017-05-29T10:09:42+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-05-29T10:12:20+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-05-29T10:12:30+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getTaleSynopsisById?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `nick` FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-29T10:15:06+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=nihao,hengjiuyiqian&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002784s ]
+
+[ 2017-05-29T10:15:32+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=nihao,hengjiuyiqian&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-05-29T10:25:42+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=nihao,hengjiuyiqian&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('0','','null','0') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Model/TaleModel.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-05-29T10:26:21+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=nihao,hengjiuyiqian&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('0','','null','0') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Model/TaleModel.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-05-29T10:26:51+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=[%27nihao%27,%27hengjiuyiqian%27]&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('0','','null','0') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Model/TaleModel.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-05-29T10:32:26+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=[%27nihao%27,%27hengjiuyiqian%27]&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('0','','null','0') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-05-29T10:34:15+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=[%27nihao%27,%27hengjiuyiqian%27]&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('0','','null','0') [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: response /Users/mile/Sites/qicheng/Application/Api/Controller/TaleController.class.php 第 23 行.
+
+[ 2017-05-29T10:34:43+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=[%27nihao%27,%27hengjiuyiqian%27]&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('0','','null','0') [ RunTime:0.0020s ]
+
+[ 2017-05-29T10:36:10+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=preprehahhaha&tags=[%27nihao%27,%27hengjiuyiqian%27]&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+
+[ 2017-05-29T10:36:24+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale?sponsorId=1&preface=%22preprehahhaha%22&tags=[%27nihao%27,%27hengjiuyiqian%27]&time=1496024099
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+
+[ 2017-05-29T10:39:38+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+
+[ 2017-05-29T10:46:21+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+
+[ 2017-05-29T10:46:30+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+
+[ 2017-05-29T10:59:57+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('3','ppppp','null','2444335566')
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('3','ppppp','null','2444335566')
+
+[ 2017-05-29T11:00:42+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('3','ppppp','null','2444335566')
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('3','ppppp','null','2444335566')
+
+[ 2017-05-29T11:01:05+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','2444335566')
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','2444335566')
+
+[ 2017-05-29T11:11:38+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','0') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T15:42:10+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','0') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T15:44:20+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','1212121212') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T15:45:21+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','9090909090')
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','9090909090')
+
+[ 2017-05-29T15:45:51+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','99090909090')
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','99090909090')
+
+[ 2017-05-29T15:46:19+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','99090909090')
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','99090909090')
+
+[ 2017-05-29T15:46:40+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','99090909090')
+ERR: 1264:Out of range value for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','99090909090')
+
+[ 2017-05-29T15:47:08+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','99090909090') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T15:47:51+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T15:47:58+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T15:48:51+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"haha\",\"xixi\"]','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`,`priority`) VALUES ('14','0')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`,`priority`) VALUES ('14','0')
+
+[ 2017-05-29T15:50:17+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"haha\",\"xixi\"]','1001001000') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`,`priority`) VALUES ('15','0')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`,`priority`) VALUES ('15','0')
+
+[ 2017-05-29T15:51:11+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"haha\",\"xixi\"]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('16')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('16')
+
+[ 2017-05-29T16:06:12+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixix\",\"hahaha\"]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('17')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('17')
+
+[ 2017-05-29T16:09:33+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"haha\",\"xixi\"]','1001001000') [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('18')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('18')
+
+[ 2017-05-29T16:11:25+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"haha\"]','1001001000') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('19')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('19')
+
+[ 2017-05-29T16:11:49+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"haha\"]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('20')
+ERR: 1364:Field 'name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`tales`) VALUES ('20')
+
+[ 2017-05-29T16:13:52+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"haha\"]','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('haha','21') [ RunTime:0.0004s ]
+
+[ 2017-05-29T16:14:20+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:15:27+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','1001001000') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:17:54+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','null','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:22:21+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','25') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','25') [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : UPDATE `tag` SET `tales`=',25' WHERE ( tagId=5 )
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : UPDATE `tag` SET `tales`=',25' WHERE ( tagId=5 )
+
+[ 2017-05-29T16:22:51+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','26') [ RunTime:0.0002s ]
+ERR: 1062:Duplicate entry '5' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','26')
+ERR: 1062:Duplicate entry '5' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','26')
+
+[ 2017-05-29T16:23:13+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','27') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','27') [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : UPDATE `tag` SET `tales`=',27' WHERE ( tagId=5 )
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : UPDATE `tag` SET `tales`=',27' WHERE ( tagId=5 )
+
+[ 2017-05-29T16:23:27+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','28') [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','28') [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : UPDATE `tag` SET `tales`=',28' WHERE ( tagId=5 )
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : UPDATE `tag` SET `tales`=',28' WHERE ( tagId=5 )
+
+[ 2017-05-29T16:24:40+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','29') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','29') [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( tagId=5 ) LIMIT 1  
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( tagId=5 ) LIMIT 1  
+
+[ 2017-05-29T16:24:42+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','30') [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','30') [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( tagId=5 ) LIMIT 1  
+ERR: 1054:Unknown column 'tagId' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( tagId=5 ) LIMIT 1  
+
+[ 2017-05-29T16:25:10+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','31') [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','31') [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='21,31' WHERE ( id=5 ) [ RunTime:0.0003s ]
+
+[ 2017-05-29T16:25:41+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','[\"xixi\",\"jja\",5]','1001001000') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('xixi','32') [ RunTime:0.0004s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('jja','32') [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`=',32' WHERE ( id=5 ) [ RunTime:0.0002s ]
+
+[ 2017-05-29T16:29:09+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','\"[&quot;haha&quot;,&quot;xixi&quot;]\"','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:31:52+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','\"[&quot;haha&quot;,&quot;xixi&quot;]\"','1001001000') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:32:25+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','\"[&quot;haha&quot;,&quot;xixi&quot;]\"','1001001000') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T16:33:08+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','\"[&quot;haha&quot;,&quot;xixi&quot;]\"','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:35:06+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','\"[&quot;haha&quot;,&quot;xixi&quot;]\"','1001001000') [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:35:36+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppp','\"[&quot;haha&quot;,&quot;xixi&quot;,16]\"','1001001000') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:37:10+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','\"[16,17]\"','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:37:53+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[16,17]','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:39:29+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:40:21+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:41:42+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:43:02+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:45:49+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:47:24+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:48:11+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T16:48:32+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:50:54+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T16:50:59+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T17:04:46+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-05-29T17:05:09+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0019s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/ThinkPHP/Common/functions.php:850) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:07:02+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0024s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:12:29+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+ERR: 1048:Column 'tags' cannot be null
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy',NULL,'1001001000')
+ERR: 1048:Column 'tags' cannot be null
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy',NULL,'1001001000')
+
+[ 2017-05-29T17:13:59+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 30 行.
+
+[ 2017-05-29T17:16:09+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:16:31+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:16:47+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:17:46+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\'hello\']','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:18:02+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[&quot;hello&quot;]','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:19:34+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[&quot;hello&quot;]','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:22:49+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\\&quot;hello\\&quot;]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:22:51+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\\&quot;hello\\&quot;]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:25:52+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\\&quot;hello\\&quot;]','1001001000') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:27:57+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\\\"hello\\\"]','1001001000') [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:27:58+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\\\"hello\\\"]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:28:26+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\\\"hello\\\"]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:28:40+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\"hello\"]','1001001000') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T17:29:26+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\"hello\"]','1001001000') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-05-29T23:30:07+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+ERR: 1364:Field 'tags' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`time`) VALUES ('1','ppppy','1001001000')
+ERR: 1364:Field 'tags' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tale` (`sponsorId`,`preface`,`time`) VALUES ('1','ppppy','1001001000')
+
+[ 2017-05-29T23:30:47+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0008s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\"hello\"]','1001001000') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0008s ]
+ERR: 1054:Unknown column 'hello' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( id=hello ) LIMIT 1  
+ERR: 1054:Unknown column 'hello' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( id=hello ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+

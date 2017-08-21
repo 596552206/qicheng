@@ -1,0 +1,464 @@
+[ 2017-07-05T00:11:44+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001004') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125]' WHERE ( id=68 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125]' WHERE ( id=66 ) [ RunTime:0.0004s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 125 [ RunTime:0.0004s ]
+
+[ 2017-07-05T00:12:01+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001005') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126]' WHERE ( id=68 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126]' WHERE ( id=66 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 126 [ RunTime:0.0003s ]
+
+[ 2017-07-05T00:12:04+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001006') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127]' WHERE ( id=68 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127]' WHERE ( id=66 ) [ RunTime:0.0006s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 127 [ RunTime:0.0007s ]
+
+[ 2017-07-05T00:12:07+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001007') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128]' WHERE ( id=68 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128]' WHERE ( id=66 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 128 [ RunTime:0.0003s ]
+
+[ 2017-07-05T00:12:10+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001008') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129]' WHERE ( id=68 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129]' WHERE ( id=66 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 129 [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:12:13+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001009') [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130]' WHERE ( id=68 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130]' WHERE ( id=66 ) [ RunTime:0.0002s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 130 [ RunTime:0.0003s ]
+
+[ 2017-07-05T00:12:17+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001010') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131]' WHERE ( id=68 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131]' WHERE ( id=66 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 131 [ RunTime:0.0004s ]
+
+[ 2017-07-05T00:12:20+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001011') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132]' WHERE ( id=68 ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132]' WHERE ( id=66 ) [ RunTime:0.0002s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 132 [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:12:22+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001012') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133]' WHERE ( id=68 ) [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133]' WHERE ( id=66 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 133 [ RunTime:0.0003s ]
+
+[ 2017-07-05T00:12:25+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001013') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134]' WHERE ( id=68 ) [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134]' WHERE ( id=66 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 134 [ RunTime:0.0003s ]
+
+[ 2017-07-05T00:24:22+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getHotTaleView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `time` < '1001001012' ORDER BY id desc LIMIT 3   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 132 ORDER BY id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 131 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 130 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: response /Users/mile/Sites/qicheng/Application/Api/Controller/TaleController.class.php 第 91 行.
+
+[ 2017-07-05T00:25:00+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getHotTaleView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `time` < '1001001012' ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 132 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 131 ORDER BY id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 130 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:25:28+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getHotTaleView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `time` < '1001001012' ORDER BY id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 132 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 131 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 130 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 129 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:25:41+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getHotTaleView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `time` < '1001001011' ORDER BY id desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 131 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 130 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 129 ORDER BY id LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 128 ORDER BY id LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-05T00:25:48+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getHotTaleView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `time` < '1001001011' ORDER BY id desc LIMIT 40   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 131 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 130 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 129 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 128 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 127 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 126 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 125 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 124 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 123 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 122 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 121 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 120 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 119 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 118 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 117 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 116 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 115 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 114 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 113 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 112 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-07-05T00:26:00+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getHotTaleView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `time` < '1001001011' ORDER BY id desc LIMIT 400   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 131 ORDER BY id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 130 ORDER BY id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 129 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 128 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 127 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 126 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 125 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 124 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 123 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 122 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 121 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 120 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 119 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 118 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 117 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 116 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 115 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 114 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 113 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 112 ORDER BY id LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-07-05T00:33:45+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 123 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 123 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:33:53+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=9888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 9888 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:34:13+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=988
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 988 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:34:18+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 133 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:36:58+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 133 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: sponsorId /Users/mile/Sites/qicheng/Application/Tale/Model/TaleModel.class.php 第 61 行.
+SQL: SELECT * FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:37:17+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 133 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-07-05T00:44:22+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 133 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Model/TagModel.class.php 第 36 行.
+
+[ 2017-07-05T00:44:40+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 133 ORDER BY id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:45:22+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getCertainTaleView?taleId=133
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tale` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = 133 ORDER BY id LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-05T00:54:52+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getParasOfTale?taleId=123&paraNumBefore=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = '123' AND `paraNum` > '1' ORDER BY id desc LIMIT 10   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006605s ]
+
+[ 2017-07-05T00:58:36+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/getParasOfTale?taleId=123&paraNumAfter=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `para` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `para` WHERE `taleId` = '123' AND `paraNum` > '1' ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+
+[ 2017-07-05T01:32:15+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/User/newUser?phone=13915800489&nick=yxh&gender=0&avatar=avt&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`id`,`phone`,`password`,`nick`,`gender`,`avatar`) VALUES (NULL,'13915800489','123456','yxh','0','avt') [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+

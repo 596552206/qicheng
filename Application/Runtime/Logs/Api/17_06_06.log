@@ -1,0 +1,822 @@
+[ 2017-06-06T13:15:34+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0151s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\"hello\"]','1001001000') [ RunTime:0.0033s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0023s ]
+ERR: 1054:Unknown column 'hello' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( id=hello ) LIMIT 1  
+ERR: 1054:Unknown column 'hello' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( id=hello ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T13:16:46+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0013s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\"hello\"]','1001001000') [ RunTime:0.0004s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0014s ]
+ERR: 1364:Field 'tales' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`name`) VALUES ('hello')
+ERR: 1364:Field 'tales' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `tag` (`name`) VALUES ('hello')
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T13:18:35+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0007s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','ppppy','[\"hello\"]','1001001000') [ RunTime:0.0010s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hello','[\"71\"]') [ RunTime:0.0011s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T17:08:14+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','[\"helloWorld\",31,\"langgeligelang\"]','1001001000') [ RunTime:0.0004s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('helloWorld','[\"72\"]') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('31','[\"72\"]') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('langgeligelang','[\"72\"]') [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T17:10:49+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('helloWorld','[\"73\"]') [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[\"19\"],73' WHERE ( id=32 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('langgeligelang','[\"73\"]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T21:40:06+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-06-06T21:41:33+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 'helloWorld' LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T21:42:33+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0019s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('helloWorld','[\"75\"]') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=32 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[\"19\"],73,75' WHERE ( id=32 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('langgeligelang','[\"75\"]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T21:42:44+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 'helloWorld' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T21:45:10+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0023s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( name = helloWorld ) LIMIT 1  
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( name = helloWorld ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T21:45:52+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0019s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( name=helloWorld ) LIMIT 1  
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tag` WHERE ( name=helloWorld ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T21:48:50+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0023s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 'helloWorld' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T21:51:34+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0021s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 'helloWorld' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T21:52:09+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"helloWorld\",32,\"langgeligelang\"]','1001001001') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 'helloWorld' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+ERR: 1054:Unknown column 'helloWorld' in 'where clause'
+ [ SQL语句 ] : SELECT `tales` FROM `tag` WHERE ( id=helloWorld ) LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T21:52:48+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','null','1001001001') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T21:56:42+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','[\"hello\"]','1001001001') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 'hello' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hello','[\"83\"]') [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T21:57:03+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[2]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('2','[\"84\"]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T21:57:31+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[37]','1001001002') [ RunTime:0.0023s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `name` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('37','[\"85\"]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T21:58:12+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"37\"]','1001001002') [ RunTime:0.0021s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `name` = '37' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[\"83\"],86' WHERE ( id=37 ) [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T21:59:15+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[37]','1001001002') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=37 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[\"83\"],86,87' WHERE ( id=37 ) [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:00:37+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','null','1001001002') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:00:58+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','[\"hello\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hello','[\"89\"]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:01:32+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','[\"hello\"]','1001001002') [ RunTime:0.0021s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hello','[\"90\"]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:02:26+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"world\",40]','1001001002') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('world','[\"91\"]') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[\"89\",91]' WHERE ( id=40 ) [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:29) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:28:29+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"world\",40]','1001001002') [ RunTime:0.0004s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('world','[92]') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=40 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[\"89\",91,92]' WHERE ( id=40 ) [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:29:24+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"dame\"]','1001001002') [ RunTime:0.0019s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('dame','[93]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:30:39+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0021s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[94]') [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:31:06+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0019s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[95]') [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:33:30+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[96]') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: set /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 96' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 96
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 96' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 96
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T22:36:08+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[97]') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: set /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 97' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 97
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 97' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 97
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T22:36:28+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[98]') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: set /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 98' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 98
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 98' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 98
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T22:36:34+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[99]') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: set /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 99' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 99
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 99' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE `id` = 99
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T22:37:06+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[100]') [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:38:10+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[101]') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: set /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=101 )' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE ( id=101 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( id=101 )' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE ( id=101 )
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T22:38:33+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0021s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[102]') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: set /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( `id`=`102` )' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE ( `id`=`102` )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( `id`=`102` )' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET  WHERE ( `id`=`102` )
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T22:41:02+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0023s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[103]') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: set /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Db/Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : UPDATE `tale` SET 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-06-06T22:45:01+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[104]') [ RunTime:0.0004s ]
+SQL: UPDATE `tale` SET `tags`='104' WHERE `id` = 104 [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:45:54+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0019s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[105]') [ RunTime:0.0002s ]
+SQL: UPDATE `tale` SET `tags`='[\"56\"]' WHERE `id` = 105 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:46:35+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\"]','1001001002') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[106]') [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[57]' WHERE `id` = 106 [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:47:07+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','[\"hola\"]','1001001002') [ RunTime:0.0022s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[107]') [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[58]' WHERE `id` = 107 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:47:56+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','[\"hola\"]','1001001002') [ RunTime:0.0019s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[108]') [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[59]' WHERE `id` = 108 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:48:26+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\",\"kois\"]','1001001003') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[109]') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('kois','[109]') [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[60,61]' WHERE `id` = 109 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:49:37+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\",\"kois\"]','1001001003') [ RunTime:0.0020s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[110]') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('kois','[110]') [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[62,63]' WHERE `id` = 110 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:50:08+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[\"hola\",\"kois\"]','1001001003') [ RunTime:0.0019s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[111]') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('kois','[111]') [ RunTime:0.0002s ]
+SQL: UPDATE `tale` SET `tags`='[64,65]' WHERE `id` = 111 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:50:36+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0004s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 1','[\"hola\",\"kois\"]','1001001003') [ RunTime:0.0021s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('hola','[112]') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('kois','[112]') [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[66,67]' WHERE `id` = 112 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:51:16+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0003s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 2','[67,\"nico\"]','1001001003') [ RunTime:0.0021s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=67 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,113]' WHERE ( id=67 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tag` (`name`,`tales`) VALUES ('nico','[113]') [ RunTime:0.0002s ]
+SQL: UPDATE `tale` SET `tags`='[67,68]' WHERE `id` = 113 [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/mile/Sites/qicheng/Application/Tale/Event/TaleEvent.class.php:31) /Users/mile/Sites/qicheng/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2017-06-06T22:52:02+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0005s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`preface`,`tags`,`time`) VALUES ('1','this is  preface for tale 3','[68,66]','1001001003') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[113,114]' WHERE ( id=68 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114]' WHERE ( id=66 ) [ RunTime:0.0003s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 114 [ RunTime:0.0003s ]
+

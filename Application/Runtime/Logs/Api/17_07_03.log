@@ -1,0 +1,54 @@
+[ 2017-07-03T23:18:47+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0009s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001003') [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115]' WHERE ( id=68 ) [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115]' WHERE ( id=66 ) [ RunTime:0.0005s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 115 [ RunTime:0.0004s ]
+
+[ 2017-07-03T23:19:03+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0008s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001003') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116]' WHERE ( id=68 ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116]' WHERE ( id=66 ) [ RunTime:0.0004s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 116 [ RunTime:0.0004s ]
+
+[ 2017-07-03T23:20:17+08:00 ] 192.168.31.207 /~mile/qicheng/index.php/Api/Tale/newTale
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tale` [ RunTime:0.0008s ]
+SQL: INSERT INTO `tale` (`sponsorId`,`tags`,`time`) VALUES ('1','[68,66]','1001001004') [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tag` SET `tales`='[113,114,115,116,117]' WHERE ( id=68 ) [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tag` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tales` FROM `tag` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tag` SET `tales`='[112,114,115,116,117]' WHERE ( id=66 ) [ RunTime:0.0005s ]
+SQL: UPDATE `tale` SET `tags`='[68,66]' WHERE `id` = 117 [ RunTime:0.0005s ]
+
