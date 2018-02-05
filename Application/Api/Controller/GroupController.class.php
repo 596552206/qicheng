@@ -13,9 +13,10 @@ class GroupController extends Controller{
     public function newGroup(){
         $userId = I("post.user");
         $groupName = I("post.name");
+        $password = I("post.password");
         
         $ge = new GroupEvent();
-        $resl = $ge->newGroup($userId, $groupName);
+        $resl = $ge->newGroup($userId, $groupName, $password);
         
         $response = new Response();
         if($resl === false){
@@ -29,18 +30,30 @@ class GroupController extends Controller{
     public function joinGroup(){
         $userId = I("post.user");
         $groupId = I("post.group");
+        $password = I("post.password");
         
         $ge = new GroupEvent();
         $isExist = $ge->isGroupExist($groupId);
+        $response = new Response();
         if($isExist == 2){
             //存在
-            $resl = $ge->joinGroup($userId, $groupId);
-            
-            $response = new Response();
-            if($resl === false){
-                $response = $response->setStatus(395)->setDetail("加入小组时发生未知错误")->build();
+            if($ge->hasUserJoinedCertainGroup($userId, $groupId) == 2){
+                //已加入
+                $response = $response->setStatus(393)->setDetail("您已经加入了这个小组")->build();
             }else{
-                $response = $response->setStatus(200)->setDetail("成功")->build();
+                //未加入
+                if($ge->confirmPassword($password, $groupId)){
+                    //密码（口令）正确
+                    $resl = $ge->joinGroup($userId, $groupId);
+                    if($resl === false){
+                        $response = $response->setStatus(395)->setDetail("加入小组时发生未知错误")->build();
+                    }else{
+                        $response = $response->setStatus(200)->setDetail("成功")->build();
+                    }
+                }else{
+                    //口令错误
+                    $response = $response->setStatus(398)->setDetail("口令错误")->build();
+                }
             }
             $this->ajaxReturn($response);
         }else if($isExist == 1){
@@ -54,6 +67,21 @@ class GroupController extends Controller{
             $response = $response->setStatus(395)->setDetail("加入小组时发生未知错误")->build();
             $this->ajaxReturn($response);
         }
+    }
+    
+    public function quitGroup(){
+        $userId = I("get.user");
+        $groupId = I("get.group");
+        
+        $ge = new GroupEvent();
+        $resl = $ge->quitGroup($userId, $groupId);
+        $response = new Response();
+        if($resl){
+            $response = $response->setStatus(200)->setDetail("成功退出小组「".$groupId."」")->build();
+        }else{
+            $response = $response->setStatus(400)->setDetail("操作失败")->build();
+        }
+        $this->ajaxReturn($response);
     }
     
     public function getGroupByUser(){
@@ -78,6 +106,21 @@ class GroupController extends Controller{
         
         $ge = new GroupEvent();
         $resl = $ge->getGroupView($groupId);
+        
+        $response = new Response();
+        if($resl === false){
+            $response = $response->setStatus(395)->setDetail("发生未知错误")->build();
+        }else{
+            $response = $response->setStatus(200)->setData($resl)->build();
+        }
+        $this->ajaxReturn($response);
+    }
+    
+    public function getGroupMembers(){
+        $groupId = I("get.group");
+        
+        $ge = new GroupEvent();
+        $resl = $ge->getMemberInGroup($groupId);
         
         $response = new Response();
         if($resl === false){
@@ -128,7 +171,7 @@ class GroupController extends Controller{
         $user = I("post.user");
         $group = I("post.group");
         $content = I("post.content");
-        $time = I("post.time");
+        $time = Timestamp::format(I("post.time"));
         
         $ge = new GroupEvent();
         $resl = $ge->writeParaOfAGroup($user, $group, $content, $time);
@@ -257,4 +300,9 @@ class GroupController extends Controller{
         }
     }
      
+    public function test(){
+        $ge =  new GroupEvent();
+        $resl = $ge->confirmPassword(1234, 10000);
+        dump($resl);
+    }
 }

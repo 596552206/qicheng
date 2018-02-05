@@ -4,11 +4,11 @@ use Think\Model;
 class GroupModel extends Model{
     protected $tableName = "groups";
     
-    public function newGroup($name){
+    public function newGroup($name,$password){
         if($name == null){
             $data = array();
         }else{
-            $data = array("name"=>$name);
+            $data = array("name"=>$name,"password"=>$password);
         }
         return $this->data($data)->add();
     }
@@ -16,6 +16,17 @@ class GroupModel extends Model{
     public function groupMemberPlusOne($group){
         $memberOld = $this->where(array("id"=>$group))->getField("member");
         $memberNew = $memberOld+1;
+        $resl = $this->where(array("id"=>$group))->data(array("member"=>$memberNew))->save();
+        if($resl === false){
+            return false;
+        }else{
+            return true;
+        }
+    }
+    
+    public function groupMemberMinusOne($group){
+        $memberOld = $this->where(array("id"=>$group))->getField("member");
+        $memberNew = $memberOld-1;
         $resl = $this->where(array("id"=>$group))->data(array("member"=>$memberNew))->save();
         if($resl === false){
             return false;

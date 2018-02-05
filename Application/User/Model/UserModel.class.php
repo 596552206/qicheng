@@ -6,7 +6,7 @@ class UserModel extends Model{
     
     public function newUser($user){
         $this->create($user);
-        $this->add();
+        return $this->add();
     }
     
     public function getUser($userId){
@@ -20,6 +20,7 @@ class UserModel extends Model{
     
     public function getUserAvatarByPhone($phone){
         $resl = $this->where(array("phone"=>$phone))->getField("avatar");
+        $resl = $this->formateAvatar($resl);
         return ($resl == null || $resl == false) ? null : $resl;  
     }
     
@@ -34,5 +35,23 @@ class UserModel extends Model{
     public function getUserCidByUid($user){
         $resl = $this->where(array("id"=>$user))->getField("clientid");
         return ($resl == null || $resl == false) ? null : $resl;
+    }
+    public function getUserRough($userId){
+        $rough = $this->where(array("id"=>$userId))->field("id,nick,avatar")->find();
+        $rough['avatar'] = $this->formateAvatar($rough['avatar']);
+        return $rough;
+    }
+    public function isNickExist($nick){
+        $resl =  $this->where(array("nick"=>$nick))->find();
+        return ($resl == null || $resl == false) ? false : true; 
+    }
+    
+    
+    private function formateAvatar($avatar){
+        if(substr($avatar, 0,6) == "Public"){
+            return C("APP_URL").$avatar;
+        }else{
+            return $avatar;
+        }
     }
 }

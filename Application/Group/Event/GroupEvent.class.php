@@ -6,18 +6,19 @@ use Group\Model\ParaModel;
 use Common\Model\ActiveModel;
 use Org\Util\Getui;
 use Common\Model\SilenceModel;
+use User\Model\UserModel;
 class GroupEvent extends Controller{
-    public function newGroup($user,$name){
+    public function newGroup($user,$name,$password){
         //在group表插入记录
         $gm = new GroupModel();
-        $groupId = $gm->newGroup($name);
+        $groupId = $gm->newGroup($name,$password);
         //在User-Group表插入记录
         if($groupId === false){
             return false;
         }else{
             $data = array(
                 "userid"=>$user,
-                "groupid"=>$groupId
+                "groupid"=>$groupId,
             );
             $resl = M("user_group")->data($data)->add();
             if($resl === false){
@@ -50,8 +51,25 @@ class GroupEvent extends Controller{
         
     }
     
+    public function quitGroup($user,$group){
+        //让group表的member值减一
+        $gm = new GroupModel();
+        $resl1 = $gm->groupMemberMinusOne($group);
+        //在user-group表删除记录
+        if($resl1 === false){
+            return false;
+        }else{
+        $resl = M("user_group")->where(array("userid"=>$user,"groupid"=>$group))->delete();
+        if($resl == 0 || $resl === false){
+            return false;
+        }else{
+            return true;
+        }
+        }
+    }
+    
     public function getGroupByUser($user){
-        $groupIdList = M("user_group")->where(array("userid"=>$user))->select();
+        $groupIdList = M("user_group")->where(array("userid"=>$user))->order("id desc")->select();
         if($groupIdList == null)return  null;
         $groupList = array();
         foreach ($groupIdList as $v){
@@ -67,6 +85,13 @@ class GroupEvent extends Controller{
     
     public function hasUserJoinedAnyGroup($userid){
         $resl = M("user_group")->where(array("userid"=>$userid))->select();
+        if($resl === false)return 0;//错误
+        if($resl == null)return 1;//无
+        return 2;//有
+    }
+    
+    public function hasUserJoinedCertainGroup($userid,$groupid){
+        $resl = M("user_group")->where(array("userid"=>$userid,"groupid"=>$groupid))->select();
         if($resl === false)return 0;//错误
         if($resl == null)return 1;//无
         return 2;//有
@@ -99,12 +124,33 @@ class GroupEvent extends Controller{
         return 2;//存在
     }
     
+    public function confirmPassword($password,$group){
+        $gm = new GroupModel();
+        $realPassword = $gm->where(array("id"=>$group))->field("password")->find();
+        if($realPassword['password'] == $password){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
     public function getGroupView($groupid){
         $gm = new GroupModel();
         $groupView = $gm->getGroupRough($groupid);
         $pm = new ParaModel();
         $groupView['paraone'] = $pm->getFirstPara($groupid)['content'];
         return $groupView;
+    }
+    
+    
+    public function getMemberInGroup($groupid){
+        $memberIds = M("user_group")->where(array("groupid"=>$groupid))->field("userid")->select();
+        $members = array();
+        $um = new UserModel();
+        foreach ($memberIds as $memberId){
+            $members[] = $um->getUserRough($memberId['userid']);
+        }
+        return $members;
     }
     
     public function sendMes2ActiveUserInGroup($group,$mes){
